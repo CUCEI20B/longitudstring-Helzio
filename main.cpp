@@ -4,8 +4,7 @@ using namespace std;
 
 int main() {
     string input;
-    cin >> input;
-
+    getline(cin, input);
     cout << input.length() << endl;
 
     return 0;
